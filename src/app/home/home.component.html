@@ -1,6 +1,3 @@
-<header>
-    <a routerLink="/"><h1>Kalzada <small>Addutucattunow!</small></h1></a>
-</header>
 <section>
   <h1>Product List</h1>
 <a routerLink="/products">
@@ -11,7 +8,7 @@
     <p>{{products.price | currency:'&#8369;'}}</p>
     <p>(5 stars) {{products.reviews.length}} reviews</p>
   </div>
-
+<!-- comment for webhool=k -->
   <div *ngIf="products" class="product" >
     <img src="" alt="aegis" />
     <h4>{{products.name}}</h4>
